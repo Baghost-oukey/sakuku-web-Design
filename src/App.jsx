@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import './App.css'
-
+import DashboardMain from './dashboard/Dashboard-Main/dashboardMain'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1>hai</h1>
+      <div className='bg-slate-900 min-h-screen'>
+        <DashboardMain />
       </div>
     </>
   )
